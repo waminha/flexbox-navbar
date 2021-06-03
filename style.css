@@ -13,12 +13,14 @@ nav {
   display: flex;
   background-color: rgb(40, 167, 240);
   justify-content: space-around;
-  padding: 15px 0;
-  color: black;
+  padding: 10px 0;
+  color: rgb(141, 247, 233);
+  align-items: center;
 }
 
 nav .logo {
-  font-family: "Mr Bedfort", cursive;
+  font-size: 30px;
+  font-family: "Viga", sans-serif;
   letter-spacing: 0.5;
 }
 
@@ -31,9 +33,9 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
-  font-family: "Black And White Picture", sans-serif;
-  font: 0.8em;
+  color: rgb(0, 0, 0);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
 
 nav ul li a:hover {
